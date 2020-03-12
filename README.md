@@ -41,3 +41,23 @@ public static Properties loadPropertiesFile() throws Exception {
 	return prop;
 }
 ```    
+**Sample Input and Output**
+```
+Team List Name 		Coach 
+India		 	Paddy Upton 
+Australia 		Brad Hodge 
+England			Sanjay Bangar 
+South Africa		Ricky Ponting 
+America			Supergiants Stephen 
+Enter the teamname you want update 
+India 
+Enter the new coachname you want update 
+Anil Kumble 
+Updated team list 
+Name 			Coach
+India		 	Anil Kumble
+Australia 		Brad Hodge 
+England			Sanjay Bangar 
+South Africa		Ricky Ponting 
+America			Supergiants Stephen 
+```
