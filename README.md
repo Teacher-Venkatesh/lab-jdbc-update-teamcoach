@@ -5,8 +5,8 @@
 
 ## Progression 1:
 
-Create `Main.java` with main method 
-Create `Team.java` domain class with below attributes, 
+Create a class called as `Main` with main method 
+Create a class called as `Team` with below attributes, 
 ```
 teamName - String 
 coachName - String 
@@ -19,7 +19,7 @@ Include a constructor with below arguments,
 
 ## Progression 2:
 
-Create `TeamDAO.java` with below methods, 
+Create a dao-class called as `TeamDAO` with below methods, 
 `public List<Team> getAllTeams()` - Method used to get all the users from the database 
 `public void updateTeamDetails(String teamName,String coachName)` - Method used to update the team's coach details (coach name) 
 `public static void displayTeams(List<Team> teamList)` - Method used to display the team coach details 
