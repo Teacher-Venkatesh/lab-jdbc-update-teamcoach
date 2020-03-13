@@ -5,25 +5,24 @@
 
 ## Progression 1:
 
-Create a class called as `Main` with main method 
-Create a class called as `Team` with below attributes, 
+1. Create a class called as `Team` with below attributes, 
 ```
-teamName - String 
-coachName - String 
+	- teamName - String 
+	- coachName - String 
 ```
-Include getter and setter method for all the attributes 
-Include a constructor with below arguments, 
-`public Team(teamld,teamName,coachName) `
+2. Include getter and setter method for all the attributes 
+3. Include a constructor with below arguments, 
+ 	- `public Team(teamld,teamName,coachName) `
 
 
 
 ## Progression 2:
 
-Create a dao-class called as `TeamDAO` with below methods, 
-`public List<Team> getAllTeams()` - Method used to get all the users from the database 
-`public void updateTeamDetails(String teamName,String coachName)` - Method used to update the team's coach details (coach name) 
-`public static void displayTeams(List<Team> teamList)` - Method used to display the team coach details 
-In DAO classes set the database connection.  
+1. Create a dao-class called as `TeamDAO` with below methods, 
+	- `public List<Team> getAllTeams()` - Method used to get all the users from the database 
+	- `public void updateTeamDetails(String teamName,String coachName)` - Method used to update the team's coach details (coach name) 
+	- `public static void displayTeams(List<Team> teamList)` - Method used to display the team coach details 
+2. In DAO classes set the database connection.  
 
 
 ![1 2](https://user-images.githubusercontent.com/61002120/76416050-5807d380-63c0-11ea-8d52-9e8750e800f9.png)
@@ -31,7 +30,7 @@ In DAO classes set the database connection.
 
 ### Note:
 
-Use the below code to retreive the connection details from mysql.properties to establish connection
+Use the below code to retreive the connection details from jdbc.properties to establish connection
 ```
 public static Properties loadPropertiesFile() throws Exception {
 	Properties prop = new Properties();	
