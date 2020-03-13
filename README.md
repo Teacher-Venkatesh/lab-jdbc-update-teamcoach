@@ -24,6 +24,11 @@
 	- `public static void displayTeams(List<Team> teamList)` - Method used to display the team coach details 
 2. In DAO classes set the database connection.  
 
+## Progression 3:
+1. Create a class called as `Main`.
+2. Create appropriate objects and call the methods to display the details.
+3. Refer sample input and output for reference.
+
 
 ![1 2](https://user-images.githubusercontent.com/61002120/76416050-5807d380-63c0-11ea-8d52-9e8750e800f9.png)
 
